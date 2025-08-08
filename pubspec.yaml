@@ -1,0 +1,35 @@
+name: mamu_flutter_app
+description: MaMu – Mutelu Prayer App (Flutter Starter)
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^4.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # App assets
+  assets:
+    - assets/data/chants.json
+    - assets/audio/
+
+  # --- Fonts (Mitr) ---
+  # A placeholder folder (assets/fonts/) is included.
+  # Drop Mitr TTF files here and then UNCOMMENT the block below.
+  # fonts:
+  #   - family: Mitr
+  #     fonts:
+  #       - asset: assets/fonts/Mitr-Regular.ttf
+  #       - asset: assets/fonts/Mitr-Medium.ttf
+  #       - asset: assets/fonts/Mitr-Bold.ttf
+  #         weight: 700
